@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ratings</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form action="">
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="rating" placeholder="Rating">      
+    </form>        
+    <button id="add-rating">Submit</button>          
+    <section>
+        <table class="table sortable">
+            <thead class="header">
+                <tr>
+                    <th>Title</th>
+                    <th>Rating</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+        <div class="container">
+            <ul>
+            </ul>
+        </div>        
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>    
+</body>
+</html>
